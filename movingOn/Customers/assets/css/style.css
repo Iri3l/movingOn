@@ -1,0 +1,154 @@
+
+
+#brand {
+	font-family: 'Skranji', cursive;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.938);
+    color: #fff;
+}
+
+.navbar {
+	background-color: transparent;
+	position: relative;
+	z-index: 4; 
+}
+
+.nav-link {
+	font-size: 14px;
+}
+
+main {
+    position: absolute; 
+	top: 0%;
+    z-index: 0;
+    width:100%
+
+}
+.main-menu {
+    clear: both;
+}
+
+.carousel-item img {
+    height: 900px;
+    width: 100%;
+}
+
+.site-wrapper {
+    height: 900px;
+    clear: both;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	width: 8%;
+}
+.section-1 {
+    padding-top: 5px;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.712)
+}
+
+.parallax {
+    background-image: url("../images/6.jpg");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
+
+.contact-us {
+    color: crimson;
+}
+.counter {
+    text-align: center;
+    padding-top: 50px;
+}
+ .text-center a, .carousel-caption a {
+    text-decoration: none;
+}
+
+  @media only screen and (max-device-width:416px) {
+    .site-wrapper {
+        height: 220px;
+    }
+    .col-md-4 {
+        margin: 5% 0%;
+    }
+   /* .carousel-control-next, .carousel-control-prev {
+        display: none;
+    } */
+    .carousel-item img {
+    height: 35%;
+    width: 100%;
+    }
+    .parallax {
+    background-image: url("../images/9.jpg");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+    }
+    .section-1 {
+        padding-top: 35%;
+    }
+
+}
+
+ @media (min-device-width:667px){
+    .site-wrapper {
+        height: 445px;
+    }
+    .col-md-4 {
+        margin: 5% 0%;
+    }
+    
+.section-1 {
+        padding-top: 66%;
+    }
+ }
+
+@media only screen and (min-device-width:1024px) {
+    .site-wrapper {
+        height: 645px;
+    }
+    .col-md-4 {
+        margin: 5% 0%;
+    }
+    .section-1 {
+        padding-top: 30%;
+    }
+}
+ 
+ @media only screen and (min-device-width:1300px) {
+    .site-wrapper {
+        height: 800px;
+    }
+    .col-md-4 {
+        margin: 5% 0%;
+    }
+    .section-1 {
+        padding-top: 10%;
+    }
+}
+ 
+ @media only screen and (min-device-width:1400px) {
+    .site-wrapper {
+        height: 900px;
+    }
+    .col-md-4 {
+        margin: 5% 0%;
+    }
+    .section-1 {
+        padding-top: 2px;
+    }
+}
+ 
+ 
+

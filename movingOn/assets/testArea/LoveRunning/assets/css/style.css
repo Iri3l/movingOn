@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Skranji');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    color: #777777;ß
+}
+
+h2  {
+    font-family: Skranji;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555555;  
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
+
+#menu li {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+    float: right;
+    direction: ltr; /* testing,  working on it */
+    margin-right: 30px;
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #777777;
+}
+
+.active {
+    border-bottom: 1px solid #777777;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/Richmond_Park.JPG") no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#cover-text, #cover-text h2 {
+    color: #ffffff;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top:40px;
+    padding-left:10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 3px;
+    right: 150px;
+
+    position: absolute;
+}

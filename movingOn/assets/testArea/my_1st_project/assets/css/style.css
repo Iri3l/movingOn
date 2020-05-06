@@ -1,0 +1,111 @@
+
+
+#brand {
+	font-family: 'Skranji', cursive;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.938);
+}
+
+.navbar {
+	background-color: transparent;
+	position: relative;
+	z-index: 4; 
+}
+
+.nav-link {
+	font-size: 14px;
+}
+
+main {
+    position: absolute; 
+	top: 0%;
+    z-index: 0;
+    width:100%
+
+}
+
+.site-wrapper {
+    height: 1060px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	width: 8%;
+}
+.section-1 {
+    padding-top: 5px;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.712)
+}
+
+.parallax {
+    background-image: url("../images/13.jpg");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.contact-us {
+    color: crimson;
+}
+.counter {
+    text-align: center;
+    padding-top: 50px;
+}
+
+  @media only screen and (max-device-width:665px) {
+    .site-wrapper {
+        height: 220px;
+    }
+    .col-md-4 {
+        margin: 5% 0%;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        display: none;
+    }
+}
+
+ @media (min-device-width:667px){
+    .site-wrapper {
+        height: 445px;
+    }
+    .col-md-4 {
+        margin: 5% 0%;
+    }
+ }
+
+@media only screen and (min-device-width:1024px) {
+    .site-wrapper {
+        height: 645px;
+    }
+    .col-md-4 {
+        margin: 5% 0%;
+    }
+}
+ 
+ @media only screen and (min-device-width:1360px) {
+    .site-wrapper {
+        height: 800px;
+    }
+    .col-md-4 {
+        margin: 5% 0%;
+    }
+}
+ 
+ @media only screen and (min-device-width:1400px) {
+    .site-wrapper {
+        height: 1060px;
+    }
+    .col-md-4 {
+        margin: 5% 0%;
+    }
+}
+ 
+ 
+
