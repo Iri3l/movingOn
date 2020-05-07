@@ -399,7 +399,13 @@ img {
        color: #fafafa;
        background-color: #e84610;
    }
-
+   
+   .site-info {
+       display: -webkit-inline-box;
+   }
+   .img-responsive {
+       padding-left: 10px;
+   }
    /*.................. Media Queries...... */
 
    @media(min-width: 992px) {
@@ -445,9 +451,10 @@ img {
   }
 
 
-/*.................. Counter ...... */
+/*.................. Copyright ...... */
 
 h6 {
     text-align: center;
     padding-bottom: 40px;
 }
+ 
