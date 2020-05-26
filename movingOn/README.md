@@ -8,3 +8,5 @@
 
 
 04.04.2020 Updates to CV-resume page, links added as portofolio. Copy rights updated.
+
+**26.05.2020 Colaborators added on footer*
